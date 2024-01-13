@@ -5,9 +5,9 @@ function addPerson(name, description, image) {
     let person = document.createElement("div");
     person.classList.add("person");
 
-    let image = document.createElement("img");
-    image.src = "../assets/bedlessnoob.jpg";
-    image.style.borderRadius = "200px";
+    let imageElement = document.createElement("img");
+    imageElement.src = "url(../assets/" + image + ")";
+    imageElement.style.borderRadius = "200px";
 
     let header = document.createElement("h2");
     header.innerHTML = name;
@@ -20,7 +20,7 @@ function addPerson(name, description, image) {
     paragraph.innerHTML = description;
     paragraph.style.marginLeft = "65%";
 
-    person.appendChild(image, person.children[0]);
+    person.appendChild(imageElement, person.children[0]);
     person.appendChild(header, person.children[0]);
     person.appendChild(paragraph, person.children[0]);
 
@@ -31,7 +31,19 @@ function addPerson(name, description, image) {
 
 async function addAllPeople() {
 
-    
+    const jsonFetch = await fetch("https://raw.githubusercontent.com/s-wendel/s-wendel.github.io/main/assets/people.json");
+    const json = await jsonFetch.json();
+
+    console.log(json);
+
+    for(let i = 0; i < json.length; i++) {
+
+        const person = json[i];
+
+        addPerson(person.name, person.description, person.icon);
+
+    }
 
 }
 
+addAllPeople();
