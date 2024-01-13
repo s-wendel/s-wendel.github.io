@@ -1,0 +1,31 @@
+[
+    {
+        "id": "auzora_minions",
+        "name": "Auzora Minions",
+        "description": "Auzora Minions is the minion side of a project similar to Hypixel Skyblock I started. There are several skins as well as upgraders",
+        "icon": "auzora_minions.png",
+        "elements": [
+            {
+                "name": "The Minions Move!!!!",
+                "description": "Oh they move around",
+                "video": "https://www.youtube.com/embed/zbLVvU7fokk?autoplay=0&mute=1&loop=1" 
+            },
+            {
+                "name": "Functionality",
+                "description": "They're really awesome I think",
+                "video": "https://www.youtube.com/embed/T5j-67rbhiE?autoplay=0&mute=1&loop=1"
+            },
+            {
+                "name": "The GUI",
+                "description": "It looks familiar",
+                "video": "https://www.youtube.com/embed/GTw2JXI1sq0?autoplay=0&mute=1&loop=1"
+            }
+        ]
+    },
+    {
+        "id": "project_ivory",
+        "name": "Project Ivory",
+        "description": "An old Minecraft MMORPG I've created, peaked ~20 players",
+        "icon": ""
+    }
+]
