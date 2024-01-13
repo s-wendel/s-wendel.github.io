@@ -1,0 +1,25 @@
+[
+    {
+        "id": "auzora_minions",
+        "name": "Auzora Minions",
+        "description": "",
+        "icon": "https://i.imgur.com/9QX4XZt.jpg",
+        "elements": [
+            {
+                "name": "The Minions Move!!!!",
+                "description": "Oh they move around",
+                "video": "https://www.youtube.com/embed/zbLVvU7fokk?autoplay=0&mute=1&loop=1" 
+            },
+            {
+                "name": "Functionality",
+                "description": "They're really awesome I think",
+                "video": "https://www.youtube.com/embed/T5j-67rbhiE?autoplay=0&mute=1&loop=1"
+            },
+            {
+                "name": "The GUI",
+                "description": "It looks familiar",
+                "video": "https://www.youtube.com/embed/GTw2JXI1sq0?autoplay=0&mute=1&loop=1"
+            }
+        ]
+    }
+]
