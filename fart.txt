@@ -1,1 +1,7 @@
-Fart
+[
+    {
+      "id": "minions",
+      "header": "Minions",
+      "image": "https://i.imgur.com/9QX4XZt.jpg"
+    }
+]
