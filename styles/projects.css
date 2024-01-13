@@ -5,6 +5,7 @@
     flex-flow: row wrap;
     justify-content: center;
     row-gap: 115px;
+    height: 425px;
 
 }
 
@@ -17,6 +18,13 @@
     margin-left: 1%;
     height: 300px;
     width: 350px;
+    transition: transform 0.2s;
+
+}
+
+#projects > div:hover {
+
+    transform: scale(0.95);
 
 }
 
@@ -30,5 +38,11 @@
     margin-top: 75%;
     height: 125px;
     width: 350px;
+
+}
+
+.shrink {
+
+    transform:scale(0.95);
 
 }
