@@ -26,6 +26,6 @@
         "id": "project_ivory",
         "name": "Project Ivory",
         "description": "An old Minecraft MMORPG I've created, peaked ~20 players",
-        "icon": ""
+        "icon": "project_ivory.png"
     }
 ]

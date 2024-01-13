@@ -24,7 +24,7 @@ function addProject(id, header, text, icon) {
 
 async function addAllProjects() {
 
-    const jsonFetch = await fetch("https://raw.githubusercontent.com/s-wendel/s-wendel.github.io/main/info.json");
+    const jsonFetch = await fetch("https://raw.githubusercontent.com/s-wendel/s-wendel.github.io/main/assets/info.json");
     const json = await jsonFetch.json();
 
     for(let i = 0; i < json.length; i++) {
