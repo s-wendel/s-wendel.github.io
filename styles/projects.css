@@ -5,6 +5,7 @@
     flex-flow: row wrap;
     justify-content: center;
     height: 90vh;
+    background-color: green;
 
 }
 
@@ -15,8 +16,8 @@
 
     border-radius: 25px;
     margin-left: 1%;
-    height: 30vh;
-    width: 17.5vw;
+    height: 300px;
+    width: 17.5%;
     transition: transform 0.2s;
 
 }
