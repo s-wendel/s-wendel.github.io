@@ -39,3 +39,5 @@ async function addAllProjects() {
 }
 
 addAllProjects();
+
+/* Adjust the height, maybe I'm using divs wrong ? */
