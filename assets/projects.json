@@ -2,7 +2,7 @@
     {
         "id": "auzora_minions",
         "name": "Auzora Minions",
-        "description": "Auzora Minions is the minion side of a project similar to Hypixel Skyblock I started. There are several skins as well as upgraders",
+        "description": "Auzora Minions is the minion side of a project similar to Hypixel Skyblock I started",
         "icon": "auzora_minions.gif",
         "elements": [
             {
@@ -27,5 +27,47 @@
         "name": "Project Ivory",
         "description": "An old Minecraft MMORPG I've created, peaked ~20 players",
         "icon": "project_ivory.gif"
+    },
+    {
+        "id": "products",
+        "name": "Products",
+        "description": "Gen server with multiples renditions in Skript, then Java",
+        "icon": "products.gif"
+    },
+    {
+        "id": "epicmines",
+        "name": "Epic Mines",
+        "description": "A prison mines Spigot plugin",
+        "icon": "epic_mines.gif"
+    },
+    {
+        "id": "treecapitator",
+        "name": "Treecapitator",
+        "description": "A simple pop-in treecutting plugin",
+        "icon": "treecapitator.gif"
+    },
+    {
+        "id": "manhunt_challenges",
+        "name": "Manhunt Challenges",
+        "description": "Really silly plugins created for Bubbo, based around Minecraft Manhunt",
+        "icon": "manhunt_challenges.gif"
+    },
+    {
+        "id": "bridgerlands_prison",
+        "name": "BridgerLands Prison",
+        "description": "BedlessNoob & Zackaria's prison server",
+        "icon": "bridgerlands_prison.gif"
+    },
+    {
+        "id": "cropied",
+        "name": "Cropied",
+        "description": "Gen server, peaked 212 players",
+        "icon": "cropied.gif"
+    },
+    {
+        "id": "idle_gens",
+        "name": "IdleGens",
+        "description": "Gen server I co-owned, which I created a few features for",
+        "icon": "idlegens.gif"
     }
 ]
