@@ -19,7 +19,7 @@ function addProject(id, header, text, icon) {
     textDiv.insertBefore(textHeader, textDiv.children[0]);
 
     imageDiv.insertBefore(textDiv, imageDiv.children[0]);
-    project.insertBefore(imageDiv, project.children[0]);   
+    project.insertBefore(imageDiv, project.children[project.length - 1]);   
 
 }
 

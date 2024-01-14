@@ -15,8 +15,8 @@
 
     border-radius: 25px;
     margin-left: 1%;
-    height: 300px;
-    width: 17.5%;
+    height: 30vh;
+    width: 17.5vw;
     transition: transform 0.2s;
 
 }
