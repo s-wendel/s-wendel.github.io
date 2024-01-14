@@ -6,6 +6,7 @@
     justify-content: center;
     row-gap: 115px;
     padding-bottom: 100px;
+    color: white;
 
 }
 
@@ -19,17 +20,6 @@
     height: 300px;
     width: 300px;
     transition: transform 0.2s;
-
-}
-
-/* Mobile */
-@media only screen and (max-width: 600px) {
-
-    #projects {
-
-        background-color: blue;
-
-    }
 
 }
 
@@ -53,6 +43,6 @@
 
 .shrink {
 
-    transform:scale(0.95);
+    transform: scale(0.95);
 
 }
