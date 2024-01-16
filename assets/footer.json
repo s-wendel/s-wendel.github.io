@@ -1,0 +1,12 @@
+[
+    {
+        "id": "github",
+        "link": "https://github.com/s-wendel",
+        "icon": "../assets/github.svg"
+    },
+    {
+        "id": "discord",
+        "pop_up": "Username → shwendel",
+        "icon": "../assets/discord.svg"
+    }
+]
