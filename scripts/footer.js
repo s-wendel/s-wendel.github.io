@@ -2,7 +2,7 @@ function addFavicon(id, link, icon) {
 
     let favicon = document.createElement("img");
     favicon.id = id;
-    favicon.src = "../assets/github.svg";
+    favicon.src = "../assets/" + icon;
     favicon.classList.add("favicon");
 
     document.getElementById("footer").appendChild(favicon, document.children[0]);
@@ -11,10 +11,17 @@ function addFavicon(id, link, icon) {
 
 async function addAllFavicons() {
 
-    let jsonFetch = await fetch("https://raw.githubusercontent.com/s-wendel/s-wendel.github.io/main/assets/footer.json");
-    let json = await jsonFetch.json();
+    const jsonFetch = await fetch("https://raw.githubusercontent.com/s-wendel/s-wendel.github.io/main/assets/footer.json");
+    const json = await jsonFetch.json();
+
+/**async function addAllFavicons() {
+
+    const jsonFetch = await fetch("https://raw.githubusercontent.com/s-wendel/s-wendel.github.io/main/assets/footer.json");
+    const json = await jsonFetch.json();*/
 
     for(let i = 0; i < json.length; i++) {
+
+        console.log("1 -> " + json.id);
 
         addFavicon(
             json.id,
